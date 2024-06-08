@@ -19,7 +19,7 @@ metadata:
     appstudio.openshift.io/component: test-component
     pipelines.appstudio.openshift.io/type: build
   generateName: test-component-on-pull-request-
-  namespace: ralph
+  namespace: user-ns2
 spec:
   params:
   - name: dockerfile
